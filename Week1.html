@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Web.css">
+
+    <style media="screen">
+      body {
+        margin: 0;
+      }
+
+      h1 {
+        margin-top: 0;
+        text-align: center;
+        font-family: 'Macondo', cursive;
+        color: red;
+      }
+
+      p {
+        padding: 20px;
+        text-align: center;
+        font-family: 'Merriweather Sans', sans-serif;
+        color: blue;
+        font-size: 1.6rem;
+      }
+
+      div {
+        background-color: #FAC213;
+        height: auto;
+        width: 100%;
+      }
+
+      label {
+        font-family: 'Arial', serif;
+        font-size: 1.1rem;
+      }
+
+      table {
+        padding: 20px;
+      }
+
+      td {
+        padding: 20px;
+      }
+
+      #dub {
+        color: red;
+        font-family: "Lucida Console", monospace;
+        font-size: 2rem;
+      }
+
+      .btn {
+        background: #3498db;
+        background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+        background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+        background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+        background-image: -o-linear-gradient(top, #3498db, #2980b9);
+        background-image: linear-gradient(to bottom, #3498db, #2980b9);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Courier New;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        border: solid #1f628d 5px;
+        text-decoration: none;
+        margin-left: 50px;
+      }
+
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="main">
+        <h1>Login / Register Page</h1>
+        <p>This is a demo login page wherein we can login/register on to a platform</p>
+      </div>
+
+    </header>
+
+    <form action="mailto:gauravprakash2104@gmail.com" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td>
+            <label for="Username">Username</label>
+          </td>
+          <td>
+            <input type="text" name="Username" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email">Email</label>
+          </td>
+          <td>
+            <input type="email" name="Email" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Password">Password</label>
+          </td>
+          <td>
+            <input type="password" name="Password" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="DOB">Date of Birth</label>
+          </td>
+          <td>
+            <input type="date" name="DOB" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Age">Age</label>
+          </td>
+          <td>
+            <input type="number" name="Age" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Coding">Level of Experience in Coding</label>
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <input type="radio" name="Coding" value="">
+                </td>
+                <td>
+                  <label for="Coding">Basic</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="radio" name="Coding" value="">
+                </td>
+                <td>
+                  <label for="Coding">Intermediate</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="radio" name="Coding" value="">
+                </td>
+                <td>
+                  <label for="Coding">Expert</label>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Programming">Known Programming Languages</label>
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <input type="checkbox" name="Programming" value="">
+                </td>
+                <td>
+                  <label for="Programming">Python</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="Programming" value="">
+                </td>
+                <td>
+                  <label for="Programming">C</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="Programming" value="">
+                </td>
+                <td>
+                  <label for="Programming">C++</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" name="Programming" value="">
+                </td>
+                <td>
+                  <label for="Programming">Java</label>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <button class="btn" type="button" name="button">Submit</button>
+  </body>
+
+
+  <footer>
+    <p id="dub">Thank you for filling the form!!</p>
+  </footer>
+</html>
